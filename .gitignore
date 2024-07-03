@@ -1,2 +1,10 @@
+# Environment
 venv
 .env
+
+# Data files
+*.xlsx
+*.csv
+
+# Python related
+*ipynb_checkpoints

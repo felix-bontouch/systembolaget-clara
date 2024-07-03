@@ -1,0 +1,11 @@
+# General
+pandas
+tqdm
+python-dotenv
+streamlit
+
+# Langchain
+langchain
+langchain-core
+langchain-community
+langchain-openai
