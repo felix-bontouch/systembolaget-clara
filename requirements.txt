@@ -3,6 +3,7 @@ pandas
 tqdm
 python-dotenv
 streamlit
+openpyxl
 
 # Langchain
 langchain

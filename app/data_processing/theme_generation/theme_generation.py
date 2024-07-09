@@ -1,7 +1,3 @@
-import pandas as pd
-import os
-from tqdm import tqdm
-from datetime import datetime
 from dotenv import load_dotenv
 import concurrent.futures
 
