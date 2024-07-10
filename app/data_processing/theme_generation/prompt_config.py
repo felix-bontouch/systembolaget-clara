@@ -59,19 +59,9 @@ major_themes_items = {
             "type" : "string",
             "description" : "What the overall sentiment is in the responses about the specified theme.",
             "enum" : ["positive", "negative", "neutral", "neither"]
-        },
-        "frequency" : {
-            "type" : "integer",
-            "description" : "A scale from 1-5 defining the overall frequency of this theme. A higher number means higher frequency. 5 indicates a very high frequency among responents.",
-            "enum" : [1,2,3,4,5]
-        },
-        "urgency" : {
-            "type" : "integer",
-            "description" : "A scale from 1-5 defining the overall urgency of this theme. A higher number means higher urgency for the respondents. 5 indicates a very high urgency among responents.",
-            "enum" : [1,2,3,4,5]
         }
     },
-     "required": ["theme_name", "theme_description", "sentiment", "frequency", "urgency"]
+     "required": ["theme_name", "theme_description", "sentiment"]
 }
 
 survey_function = {
