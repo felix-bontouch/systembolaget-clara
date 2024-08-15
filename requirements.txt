@@ -1,12 +1,23 @@
 # General
 pandas
+numpy
 tqdm
 python-dotenv
-streamlit
+streamlit>=1.37.1
+streamlit-antd-components
 openpyxl
+pydantic
+pydantic-settings
+plotly
+psycopg2
 
 # Langchain
 langchain
 langchain-core
 langchain-community
 langchain-openai
+
+
+# API
+fastapi
+uvicorn
