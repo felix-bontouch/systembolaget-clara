@@ -1,6 +1,7 @@
 import streamlit as st
-from .database import Database
-from .config import settings
+from config.database import Database
+from config.settings_config import settings
+
 
 def init() -> None:
     """Initializing the Streamlit application"""

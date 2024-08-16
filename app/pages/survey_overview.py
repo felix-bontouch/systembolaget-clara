@@ -174,6 +174,7 @@ selected_tab = sac.tabs(
     key="main_tabs", 
     size='md', 
     use_container_width=False, 
+    variant='outline'
     )
 
 if selected_tab == "Ämnen":
